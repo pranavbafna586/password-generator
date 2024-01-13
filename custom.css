@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+.main {
+    background-color: #3498db;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 4px 10px rgb(0 0 0 / 50%); */
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    background: #2980b9;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+/* .box:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  } */
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    user-select: none;
+}
+
+#btn {
+    align-items: center;
+    width: 50%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align:center;
+    border-radius: 50px;
+}
+/* .cssbuttons-io-button {
+    display: flex;
+    /* align-items: center; */
+    /* font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(52, 152, 219, 0.5) 0%, rgba(52, 152, 219, 0.5) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em rgba(52, 152, 219, 0.5); ;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }   */ 
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em rgba(0, 5, 8, 0.5); ;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em rgba(10, 10, 10, 0.5); ;
+  }
